@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
+
 
 const Project = () => {
   return (
@@ -16,7 +16,7 @@ const Project = () => {
   {/* Project 1 */}
   <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
     <div className="flex relative">
-      <Image
+      <img
         alt="Dynamic Resume Builder"
         className="absolute inset-0 w-full h-full object-cover object-center"
         src="/dynamicresume.jpg"  // Updated path
@@ -45,7 +45,7 @@ const Project = () => {
   {/* Project 2 */}
   <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
     <div className="flex relative">
-      <Image
+      <img
         alt="Simple Calculator"
         className="absolute inset-0 w-full h-full object-cover object-center"
         src="/calculatortype.jpg"  // Updated path
@@ -74,7 +74,7 @@ const Project = () => {
   {/* Project 3 */}
   <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
     <div className="flex relative">
-      <Image
+      <img
         alt="ATM Project"
         className="absolute inset-0 w-full h-full object-cover object-center"
         src="/atmm.webp"  // Updated path
@@ -103,7 +103,7 @@ const Project = () => {
   {/* Project 4 */}
   <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
     <div className="flex relative">
-      <Image
+      <img
         alt="Countdown Timer Project"
         className="absolute inset-0 w-full h-full object-cover object-center"
         src="/clipboard.png"  // Updated path
@@ -132,7 +132,7 @@ const Project = () => {
   {/* Project 5 */}
   <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
     <div className="flex relative">
-      <Image
+      <img
         alt="CLI Number Guessing Project"
         className="absolute inset-0 w-full h-full object-cover object-center"
         src="/bi-10.webp"  // Updated path
@@ -161,7 +161,7 @@ const Project = () => {
   {/* Project 6 */}
   <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
     <div className="flex relative">
-      <Image
+      <img
         alt="Typescript Inquirer Project"
         className="absolute inset-0 w-full h-full object-cover object-center"
         src="/typescript.png"  // Updated path

@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import Image from 'next/image';
+
 import Typewriter from 'typewriter-effect';
 import Link from 'next/link';
 
@@ -47,7 +47,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <Image
+          <img
             className="object-cover object-center rounded mx-auto w-[15rem]"
             alt="hero"
             width={500}

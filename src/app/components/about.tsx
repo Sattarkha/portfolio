@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+
 
 const About = () => {
   return (
@@ -17,7 +17,7 @@ const About = () => {
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col-reverse items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0"><br />
             {/* Update the Image src to use the correct path */}
-            <Image
+            <img
               className="object-cover object-center rounded mx-auto"
               alt="about"
               src="/WhatsApp Image 2024-10-12 at 08.57.42_c5ee92b0.jpg"  // Correct path for public folder
