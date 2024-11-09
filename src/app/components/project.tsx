@@ -33,7 +33,7 @@ const Project = () => {
         <p className="leading-relaxed line-clamp-6">
           A web application that allows users to generate and share dynamic resumes using TypeScript, HTML, and CSS. Includes PDF download and shareable link.
         </p>
-        <Link target='_blank' href="https://vercel.com/sattarkhas-projects/milestone5/DfCMCdcsxHQaXAFA7fjHCQ3VZNo8">
+        <Link target='_blank' href="https://vercel.com/sattarkhas-projects/milestone5/9Px6cEsPYUDFJudACUf3yBSk4ZHe">
           <p className="leading-relaxed text-blue-500">
             View Project..
           </p>
