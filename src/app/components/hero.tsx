@@ -52,7 +52,7 @@ const Hero = () => {
             alt="hero"
             width={500}
             height={500}
-            src={'/WhatsApp Image 2024-10-12 at 08.57.42_c5ee92b0.jpg'}
+            src="/WhatsApp_Image_2024-10-12_at_08.57.42_c5ee92b0.jpg"
           />
         </div>
       </div>

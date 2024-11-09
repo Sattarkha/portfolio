@@ -20,7 +20,7 @@ const About = () => {
             <img
               className="object-cover object-center rounded mx-auto"
               alt="about"
-              src="/WhatsApp Image 2024-10-12 at 08.57.42_c5ee92b0.jpg"  // Correct path for public folder
+              src="/WhatsApp_Image_2024-10-12_at_08.57.42_c5ee92b0.jpg"  // Correct path for public folder
               width={400}
               height={400}
             />
