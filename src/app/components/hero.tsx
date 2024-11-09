@@ -50,8 +50,8 @@ const Hero = () => {
           <img
             className="object-cover object-center rounded mx-auto w-[15rem]"
             alt="hero"
-            width={500}
-            height={500}
+            width="500"
+            height="500"
             src="/Images/WhatsApp_Image_2024-10-12_at_08.57.42_c5ee92b0.jpg"
           />
         </div>

@@ -21,8 +21,8 @@ const About = () => {
               className="object-cover object-center rounded mx-auto"
               alt="about"
               src="/Images/WhatsApp_Image_2024-10-12_at_08.57.42_c5ee92b0.jpg"  // Correct path for public folder
-              width={400}
-              height={400}
+              width="400"
+              height="400"
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
