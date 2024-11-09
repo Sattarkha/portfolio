@@ -1,12 +1,11 @@
 import React from 'react'
-
 import Image from 'next/image'
 
 const About = () => {
   return (
     <div id='about'>
       <section
-        className="text-gray-600 body-font font-bold"
+        className="text-gray-800 body-font font-bold"
         style={{
           backgroundImage: "url('https://img.freepik.com/free-vector/modern-abstract-gradient-background-with-elegant-elements-vector-illustration_361591-3825.jpg?semt=ais_hybrid')",
           backgroundSize: 'cover',
@@ -16,11 +15,12 @@ const About = () => {
         }}
       >
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col-reverse items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0"><br />
+            {/* Update the Image src to use the correct path */}
             <Image
               className="object-cover object-center rounded mx-auto"
               alt="about"
-              src={require('../../../Public/WhatsApp Image 2024-10-12 at 08.57.42_c5ee92b0.jpg')}
+              src="/WhatsApp Image 2024-10-12 at 08.57.42_c5ee92b0.jpg"  // Correct path for public folder
               width={400}
               height={400}
             />
@@ -34,7 +34,7 @@ const About = () => {
             </p>
             <div className="flex justify-center">
               <a href={'./Resume.pdf'} download={"Public/Resume.pdf"}>
-                <button className="inline-flex text-white bg-[rgb(0,201,255)] border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
+                <button className="inline-flex text-white bg-[rgb(0,201,255)] border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ">
                   View CV
                 </button>
               </a>
