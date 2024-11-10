@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 
 const About = () => {
@@ -7,7 +8,7 @@ const About = () => {
       <section
         className="text-gray-800 body-font font-bold"
         style={{
-          backgroundImage: "url('https://img.freepik.com/free-vector/modern-abstract-gradient-background-with-elegant-elements-vector-illustration_361591-3825.jpg?semt=ais_hybrid')",
+          backgroundImage: "url('https://Image.freepik.com/free-vector/modern-abstract-gradient-background-with-elegant-elements-vector-illustration_361591-3825.jpg?semt=ais_hybrid')",
           backgroundSize: 'cover',
           backgroundPosition: 'left',
           backgroundRepeat: 'no-repeat',
@@ -17,12 +18,12 @@ const About = () => {
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col-reverse items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0"><br />
             {/* Update the Image src to use the correct path */}
-            <img
+            <Image
               className="object-cover object-center rounded mx-auto"
               alt="about"
               src="/Images/WhatsApp_Image_2024-10-12_at_08.57.42_c5ee92b0.jpg"  // Correct path for public folder
-              width="400"
-              height="400"
+              width={400}
+              height={400}
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -33,7 +34,7 @@ const About = () => {
               A passionate web developer skilled in JavaScript, TypeScript, Next.js, and Tailwind CSS. I specialize in creating dynamic, user-friendly web applications with a strong focus on clean code and intuitive design. Explore my projects to see how I turn ideas into reality through code!
             </p>
             <div className="flex justify-center">
-              <a href={'./Resume.pdf'} download={"Public/Resume.pdf"}>
+              <a href={'/Images/Screenshot_2024-10-06 _143642.png'} download>
                 <button className="inline-flex text-white bg-[rgb(0,201,255)] border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ">
                   View CV
                 </button>

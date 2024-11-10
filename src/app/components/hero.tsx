@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-
+import Image from 'next/image';
 import Typewriter from 'typewriter-effect';
 import Link from 'next/link';
 
@@ -9,7 +9,7 @@ const Hero = () => {
     <section 
       className="text-gray-800 body-font font-bold"
       style={{
-        backgroundImage: "url('https://img.freepik.com/free-vector/modern-abstract-gradient-background-with-elegant-elements-vector-illustration_361591-3825.jpg?semt=ais_hybrid')",
+        backgroundImage: "url('https://Image.freepik.com/free-vector/modern-abstract-gradient-background-with-elegant-elements-vector-illustration_361591-3825.jpg?semt=ais_hybrid')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -47,11 +47,11 @@ const Hero = () => {
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
+          <Image
             className="object-cover object-center rounded mx-auto w-[15rem]"
             alt="hero"
-            width="500"
-            height="500"
+            width={500}
+            height={500}
             src="/Images/WhatsApp_Image_2024-10-12_at_08.57.42_c5ee92b0.jpg"
           />
         </div>

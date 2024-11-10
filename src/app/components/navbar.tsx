@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image';
 
 import { AiOutlineCloudDownload } from "react-icons/ai";
 
@@ -9,7 +10,7 @@ const Navbar = () => {
     <header className="text-white body-font">
       <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
         <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-          <img src="/Images/2600831.png" alt="name" width="100" height="100" className='w-14' />
+          <Image src="/Images/2600831.png" alt="name" width={100} height={100} className='w-14' />
           <span className="ml-3 text-xl">Abdul Sattar</span>
         </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
@@ -19,7 +20,9 @@ const Navbar = () => {
             <Link href="#skills" className="mr-5 hover:text-cyan-300">Skills</Link>
             <Link href="#contact" className="mr-5 hover:text-cyan-300">Contact</Link>
           </nav>
-          <a href="/Resume.pdf" download="Resume" aria-label="Download Resume">
+          <a href="/Images/Screenshot_2024-10-06 _143642.png" download="Resume.png">
+          
+
             <button className="inline-flex items-center bg-blue-600 border-0 py-1 px-3 focus:outline-none hover:bg-cyan-500 rounded text-base mt-4 md:mt-0">
               Download CV
               <AiOutlineCloudDownload className='text-xl ml-2' />
