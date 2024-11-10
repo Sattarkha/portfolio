@@ -20,7 +20,7 @@ const Project = () => {
       <Image
         alt="Dynamic Resume Builder"
         className="absolute inset-0 w-full h-full object-cover object-center"
-        src="/Images/dynamicresume.jpg"  // Updated path
+        src="/dynamicresume.jpg"  // Updated path
         width={400}
         height={400}
       />
@@ -49,7 +49,7 @@ const Project = () => {
       <Image
         alt="Simple Calculator"
         className="absolute inset-0 w-full h-full object-cover object-center"
-        src="/Images/calculatortype.jpg"  // Updated path
+        src="/calculatortype.jpg"  // Updated path
         width={400}
         height={400}
       />
@@ -78,7 +78,7 @@ const Project = () => {
       <Image
         alt="ATM Project"
         className="absolute inset-0 w-full h-full object-cover object-center"
-        src="/Images/atmm.webp"  // Updated path
+        src="/atmm.webp"  // Updated path
         width={400}
         height={400}
       />
@@ -107,7 +107,7 @@ const Project = () => {
       <Image
         alt="Countdown Timer Project"
         className="absolute inset-0 w-full h-full object-cover object-center"
-        src="/Images/clipboard.png"  // Updated path
+        src="/clipboard.png"  // Updated path
         width={400}
         height={400}
       />
@@ -136,7 +136,7 @@ const Project = () => {
       <Image
         alt="CLI Number Guessing Project"
         className="absolute inset-0 w-full h-full object-cover object-center"
-        src="/Images/bi-10.webp"  // Updated path
+        src="/bi-10.webp"  // Updated path
         width={400}
         height={400}
       />
@@ -165,7 +165,7 @@ const Project = () => {
       <Image
         alt="Typescript Inquirer Project"
         className="absolute inset-0 w-full h-full object-cover object-center"
-        src="/Images/typescript.png"  // Updated path
+        src="/typescript.png"  // Updated path
         width={400}
         height={400}
       />
