@@ -34,7 +34,7 @@ const About = () => {
               A passionate web developer skilled in JavaScript, TypeScript, Next.js, and Tailwind CSS. I specialize in creating dynamic, user-friendly web applications with a strong focus on clean code and intuitive design. Explore my projects to see how I turn ideas into reality through code!
             </p>
             <div className="flex justify-center">
-              <a href="/Screenshot_2024-10-06 _143642.png" download>
+              <a href="/Modern Minimalist CV Resume.png" download>
                 <button className="inline-flex text-white bg-[rgb(0,201,255)] border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ">
                   View CV
                 </button>

@@ -20,7 +20,7 @@ const Navbar = () => {
             <Link href="#skills" className="mr-5 hover:text-cyan-300">Skills</Link>
             <Link href="#contact" className="mr-5 hover:text-cyan-300">Contact</Link>
           </nav>
-          <a href="/Screenshot_2024-10-06 _143642.png" download="Resume.png">
+          <a href="/Modern Minimalist CV Resume.png" download>
           
 
             <button className="inline-flex items-center bg-blue-600 border-0 py-1 px-3 focus:outline-none hover:bg-cyan-500 rounded text-base mt-4 md:mt-0">
